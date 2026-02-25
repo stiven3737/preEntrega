@@ -2,13 +2,13 @@ package model;
 
 public class Carro {
     private String color;
-    private String numPuertas;
+    private int numPuertas;
     private String modelo;
-    private String numAsientos;
+    private int numAsientos;
     private String marca;
     private int numLLantas;
 
-    public Carro(String color, String numPuertas, String modelo, String numAsientos, String marca, int numLLantas) {
+    public Carro(String color, int numPuertas, String modelo, int numAsientos, String marca, int numLLantas) {
         this.color = color;
         this.numPuertas = numPuertas;
         this.modelo = modelo;
